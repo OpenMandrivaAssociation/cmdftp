@@ -1,12 +1,12 @@
 %define name cmdftp
-%define version 0.9.6
+%define version 0.9.7
 %define release %mkrel 1
 
 Name:		%name
 Version:	%version
 Release:	%release
 Summary:	A command line shell-like ftp client
-Source:		http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
+Source:		http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/cmdftp/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Group:		Networking/File transfer
@@ -28,7 +28,7 @@ cmdftp is aimed at being small and simple.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
