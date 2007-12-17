@@ -8,7 +8,6 @@ Release:	%release
 Summary:	A command line shell-like ftp client
 Source:		http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/cmdftp/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Group:		Networking/File transfer
 License:	GPL
 %description
