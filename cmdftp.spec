@@ -1,6 +1,6 @@
 %define name cmdftp
 %define version 0.9.7
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		%name
 Version:	%version
