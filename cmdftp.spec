@@ -3,7 +3,7 @@ Version:	0.9.8
 Release:	2
 Summary:	A command line shell-like FTP client
 Source:		http://download.savannah.nongnu.org/releases/%{name}/%{name}-%{version}.tar.gz
-URL:		http://www.nongnu.org/cmdftp/
+URL:		https://www.nongnu.org/cmdftp/
 Group:		Networking/File transfer
 License:	GPLv3
 
