@@ -7,6 +7,11 @@ URL:		https://www.nongnu.org/cmdftp/
 Group:		Networking/File transfer
 License:	GPLv3
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 cmdftp is a command line FTP client for Unix under GPL.
 
